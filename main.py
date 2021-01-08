@@ -15,7 +15,7 @@ def printt(thingggg, dela=.04):
 
 
 
-f=open('corpus.txt','r',errors = 'ignore')
+f=open('corpus.txt', 'r', errors ='ignore')
 raw=f.read()
 raw=raw.lower()
 nltk.download('punkt') 
